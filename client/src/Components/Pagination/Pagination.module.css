@@ -1,0 +1,56 @@
+.totalPag {
+    padding: 5px;
+    display: table-column;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.btnPag {
+    display: inline-block;
+    padding: 7px;
+}
+
+.btnInd {
+    background: linear-gradient(45deg, rgb(235, 203, 117), rgb(156, 117, 11));
+    border-radius: 20px;  
+    border: groove #767776;
+    font-size: 20px;
+    line-height: 15px;
+    text-align: center;
+    width: 65px;
+    height: 30px;
+    
+}
+.btnInd:hover {
+    background-color: rgb(223, 173, 138);
+    border-color: rgb(73, 74, 75);
+    -webkit-transform:scale(1.2);
+    transform:scale(1.2);
+}
+.btnInd:focus {
+    box-shadow: 0 0 0 2px rgb(223, 173, 138), 0 0 0 4px rgb(245, 126, 41);
+}
+
+.direction {
+    display: flex;
+    justify-content: center;
+    padding: 28px;
+}
+
+.btnDirec {
+    background: linear-gradient(45deg, rgb(235, 203, 117), rgb(156, 117, 11));
+    border-radius: 20px;   
+    border: outset #767776;
+    font-size: 20px;
+    line-height: 15px;
+    text-align: center;
+    width: 80px;
+    height: 30px;
+    padding:3px;
+}
+.btnDirec:hover {
+    background-color: rgb(223, 173, 138);
+    border-color: rgb(73, 74, 75);
+    -webkit-transform:scale(1.2);
+    transform:scale(1.2);
+}
