@@ -1,0 +1,39 @@
+.container {  
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 70px;
+}
+
+.indGame {
+    opacity: 80%;
+}
+
+.titleGame {
+    display: flex;
+    justify-content: center;
+    color:lightyellow;
+}
+
+.ulGame {
+    color:lightyellow;
+}
+
+.cont_poster {
+    background: linear-gradient(70deg, rgba(47, 67, 133, 0.5), rgba(148, 219, 184, 0.5));
+    width: 450px;
+    height: 350px;
+    border-radius: 20px; 
+}
+
+.poster {
+    width: 350px;
+    height: 250px;
+    border-radius: 20px; 
+}
+.poster:hover {
+    filter: saturate(180%);
+    -webkit-transform:scale(1.3);
+    transform:scale(1.3);
+    
+}
+
