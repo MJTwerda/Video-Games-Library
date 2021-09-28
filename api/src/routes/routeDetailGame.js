@@ -8,8 +8,6 @@ const {VideoGame, Op, Genre, conn} = require('../db.js');
 const axios = require('axios');
 const { API_KEY } = process.env;
 
-//POSTEO games, CREO games << /videogame >>>
-
 router.post('/', async (req, res) => {
     const { name, description, released, rating, platforms, image, genres} = req.body;
     try {
