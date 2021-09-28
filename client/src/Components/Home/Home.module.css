@@ -1,0 +1,32 @@
+.fondo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../../images/black-1072366_1920.jpg');
+    background-size: cover;
+    Height: 98vh;
+}
+
+.title{
+    position: absolute;
+    font-size: 60px;
+    top: 100px;
+    color:rgb(212, 201, 201);
+    align-self: initial;
+}
+
+.btn {
+    width: 1.8cm;
+    color:rgb(36, 35, 35);
+    border: outset 4px #6f7271;
+    border-radius: 10%;
+    Align-self: center;
+    background: rgb(4, 131, 124);
+    width: 170px;
+    height: 50px;;
+}
+.btn:hover {
+    padding: 3px;
+    background-color:rgb(114, 184, 180);
+    /* border: 3px; */
+}
