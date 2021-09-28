@@ -1,0 +1,76 @@
+.formGral {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-image: url('../../images/wall.jpg');
+    background-size: cover;
+    Height: 98vh;
+}
+
+.divs {
+    margin-top: 30px;
+}
+
+.label {
+    color: rgb(228, 224, 224);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin-left:80px;
+    margin-right:50px;
+    margin-top: 50px;
+}
+
+.text_inputs {
+    width: 250px;
+    padding:4px;
+    margin-right:7px;
+    border-radius: 10px;
+    border-top: 0;
+    background-color: rgb(231, 236, 231);
+    outline: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.text_tarea {
+    width: 700px;
+    height: 50px;
+    border:inset;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    outline: medium;
+}
+
+.select_text_tarea {
+    width: 300px;
+    height: 50px;
+    border:inset;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    outline: medium;
+}
+
+.select_mult {
+    height: 100px;
+    width: 180px;
+    border-radius: 5px;
+    border: ridge;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.btn_crea {
+    background: linear-gradient(45deg, rgb(235, 203, 117), rgb(156, 117, 11));
+    border-radius: 20px;   
+    border: outset #767776;
+    font-size: 20px;
+    line-height: 15px;
+    text-align: center;
+    width: 130px;
+    height: 30px;
+    padding:3px;
+    margin-top: 40px;
+    margin-left: 80px;
+}
+.btn_crea:hover {
+    background-color: rgb(223, 173, 138);
+    border-color: rgb(73, 74, 75);
+    -webkit-transform:scale(1.2);
+    transform:scale(1.2);
+}
