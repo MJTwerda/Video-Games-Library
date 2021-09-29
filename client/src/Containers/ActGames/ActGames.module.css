@@ -1,0 +1,52 @@
+.gral {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.or {
+    padding: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.selectOr {
+    margin: 15px;
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.fil {
+    padding: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.selectFilt {
+    margin: 15px;
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.options {
+    background-color:darkgoldenrod;
+}
+
+.label {
+    color: rgb(197, 194, 194);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+.btns {
+    background: linear-gradient(45deg, rgb(235, 203, 117), rgb(156, 117, 11));
+    border: 2px outset gray;
+    border-radius: 10px;
+    width: 60px;
+    height: 25px;
+    text-decoration: none;
+}
+.btns:hover {
+    border: 1px;
+    -webkit-transform:scale(1.1);
+    transform:scale(1.1);
+}
