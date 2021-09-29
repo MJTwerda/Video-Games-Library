@@ -1,0 +1,41 @@
+.game {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.paginate {
+    display:flex;
+    justify-content: center;
+}
+
+.container {
+    background-image: url('../../images/black-1072366_1920.jpg');
+    background-size: cover;
+}
+
+.numPage {
+    color:lightyellow;
+    justify-content: flex-end;
+}
+
+.inputFilt {
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    background: linear-gradient(70deg, rgba(69, 69, 70, 0.5), rgba(128, 126, 126, 0.5));
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgb(108, 110, 114);
+    height: 200px;
+}
+
+.search {
+    align-self: center;
+    justify-content: center;
+    
+}
+
+.ordFilt {
+    align-self:center;
+}
+
