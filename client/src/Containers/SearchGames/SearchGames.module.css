@@ -1,0 +1,51 @@
+.gral {
+    display: flex;
+    flex-direction: column;
+    width: 750px;
+}
+
+.Form_text_submit {
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    padding: 5px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 10px;
+}
+
+.Form_btn_Allgames {
+    align-self: flex-start;
+    margin-right: 10px;
+    margin-top: 8px;
+}
+
+.inputText {
+    width: 350px;
+    padding:4px;
+    margin-right:7px;
+    border-radius: 10px;
+    border-top: 0;
+    background-color: rgb(231, 236, 231);
+    outline: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.btnSearch {
+    text-decoration: underline;
+    background: linear-gradient(45deg, rgb(235, 203, 117), rgb(156, 117, 11));
+    border: 2px outset gray;
+    border-radius: 10px;
+    width: 83px;
+    height: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+}
+.btnSearch:hover {
+    border: 1px;
+    -webkit-transform:scale(1.1);
+    transform:scale(1.1);
+}
+
+
+
