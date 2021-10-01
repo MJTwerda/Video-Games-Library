@@ -28,5 +28,5 @@
 .btn:hover {
     padding: 3px;
     background-color:rgb(114, 184, 180);
-    /* border: 3px; */
+    cursor: pointer;
 }
