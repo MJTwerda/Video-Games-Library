@@ -11,7 +11,8 @@
 }
 
 .btnInd {
-    background: linear-gradient(45deg, rgb(235, 203, 117), rgb(156, 117, 11));
+    /* background: linear-gradient(45deg, rgb(235, 203, 117), rgb(156, 117, 11)); */
+    background: linear-gradient(45deg, rgb(147, 192, 186), rgb(52, 139, 74));
     border-radius: 20px;  
     border: groove #767776;
     font-size: 20px;
@@ -28,7 +29,8 @@
     transform:scale(1.2);
 }
 .btnInd:focus {
-    box-shadow: 0 0 0 2px rgb(223, 173, 138), 0 0 0 4px rgb(245, 126, 41);
+    /* box-shadow: 0 0 0 2px rgb(223, 173, 138), 0 0 0 4px rgb(245, 126, 41); */
+    background: linear-gradient(45deg, rgb(156, 199, 192), rgb(214, 246, 124));
 }
 
 .direction {
@@ -38,7 +40,7 @@
 }
 
 .btnDirec {
-    background: linear-gradient(45deg, rgb(235, 203, 117), rgb(156, 117, 11));
+    background: linear-gradient(45deg, rgb(147, 192, 186), rgb(52, 139, 74));
     border-radius: 20px;   
     border: outset #767776;
     font-size: 20px;

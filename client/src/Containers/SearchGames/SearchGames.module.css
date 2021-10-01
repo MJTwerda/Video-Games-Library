@@ -33,18 +33,20 @@
 
 .btnSearch {
     text-decoration: underline;
-    background: linear-gradient(45deg, rgb(235, 203, 117), rgb(156, 117, 11));
+    background: linear-gradient(45deg, rgb(147, 192, 186), rgb(52, 139, 74));
     border: 2px outset gray;
     border-radius: 10px;
     width: 83px;
     height: 25px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-decoration: none;
+    /* color: white; */
 }
 .btnSearch:hover {
     border: 1px;
     -webkit-transform:scale(1.1);
     transform:scale(1.1);
+    cursor: pointer;
 }
 
 

@@ -28,7 +28,7 @@
 }
 
 .options {
-    background-color:darkgoldenrod;
+    background-color:rgb(147, 192, 186);
 }
 
 .label {
@@ -38,7 +38,7 @@
 }
 
 .btns {
-    background: linear-gradient(45deg, rgb(235, 203, 117), rgb(156, 117, 11));
+    background: linear-gradient(45deg, rgb(147, 192, 186), rgb(52, 139, 74));
     border: 2px outset gray;
     border-radius: 10px;
     width: 60px;
