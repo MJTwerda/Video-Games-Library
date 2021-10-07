@@ -6,6 +6,7 @@ import Game from '../../Components/Game/Game.js';
 import Pagination from '../../Components/Pagination/Pagination.js';
 import ActGames from '../ActGames/ActGames.js';
 import SearchGames from '../SearchGames/SearchGames.js';
+import Loading from '../Loading/Loading.js';
 
 import style from './Videogames.module.css';
 
@@ -41,16 +42,19 @@ export default function Videogames() {
         setcurrentPage(currentPage + 1)
     }
 
-
-    if (!allGamesOriginal.length) {
+    /* if (!allGamesOriginal.length || !games.length) {
+        return <Loading />
+    } */
+    /* if (!allGamesOriginal.length) {
         return <h3>Loading Games.Please wait...</h3>
     } 
     if (!games.length) {
         return <h3>Games not Found. Try with another Genre</h3>
-    }
+    } */
 
     return (
-         <div className={style.container}>
+         <div className={!allGamesOriginal.length || !games.length ? 
+                style.contNotGame :style.container}>
             <div className={style.inputFilt}>
 
                 <div className={style.search}>
@@ -63,7 +67,9 @@ export default function Videogames() {
             </div>
 
             <div className={style.game}>
-                <Game games={currentGames} /> 
+            {!allGamesOriginal.length || !games.length ? 
+            <Loading /> : <Game games={currentGames} /> 
+             }
             </div>
 
             <div className={style.paginate}>

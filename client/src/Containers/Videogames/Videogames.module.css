@@ -13,6 +13,11 @@
     background-image: url('../../images/black-1072366_1920.jpg');
     background-size: cover;
 }
+.contNotGame {
+    background-image: url('../../images/black-1072366_1920.jpg');
+    background-size: cover;
+    height: 98vh;
+}
 
 .numPage {
     color:lightyellow;

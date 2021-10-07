@@ -21,7 +21,7 @@ export default function ActGames() {
         if (value === 'AlfA-Z' || value === 'AlfZ-A' || value === 'ascRating' || value === 'descRating') {
             setOrders(value)
         }
-        console.log('valor de casilla filtrado/ordenado: ', value);
+        //console.log('valor de casilla filtrado/ordenado: ', value);
     }
 
     function handdleInputFilter(e) {
@@ -34,15 +34,15 @@ export default function ActGames() {
         if(name === 'FilterGenre') {
             setFilters(value)
         }
-        console.log('value de option genre: ', value);
-        console.log('name de option genre: ', name)
+        //console.log('value de option genre: ', value);
+        //console.log('name de option genre: ', name)
     }
 
     function handdleOrderSubmit(e) {
         e.preventDefault();
         dispatch(OrderTwo(orders));
         setOrders('');
-        console.log('Ordered has be okay');
+        //console.log('Ordered has be okay');
     } 
 
     function handdleFilterSubmit(e) {
@@ -51,8 +51,8 @@ export default function ActGames() {
             dispatch(filterTwo(filters));
             setFilters('')
         }
-        else return ('No hay games con ese Genre')
-        console.log('Filtered has be okay');
+        else return ('Cannot games with this Genre')
+        //console.log('Filtered has be okay');
     }
      
     return(

@@ -21,7 +21,7 @@ export default function DetailGame(props) {
         <>
 
         <div className={style.cont_img}>
-            <img src={detailGame.image} className={style.img} alt='Not Found'/>
+            <img src={detailGame.image} className={style.img} alt='Search'/>
         </div>
        <div className={style.container}>
 

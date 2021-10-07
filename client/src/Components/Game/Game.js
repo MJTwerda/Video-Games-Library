@@ -15,7 +15,7 @@ export default function Game({games}) {
                         <h4 className={style.titleGame}>{game.name}</h4>
 
                     <NavLink to={`/videogame/${game.id}`} className={style.cont_poster}>
-                        <img src={game.image} className={style.poster} alt='Not Found'/>
+                        <img src={game.image} className={style.poster} alt='Search'/>
                     </NavLink>
 
                     <ul className={style.ulGame}>

@@ -33,7 +33,7 @@ export default function SearchGames() {
 
     function handdleSubmitApiGames(e) {
     e.preventDefault();
-    console.log('E TARGET VALUE APIGAMES: ', e.target.value);
+    //console.log('E TARGET VALUE APIGAMES: ', e.target.value);
     dispatch(apiGames());
     }
 
