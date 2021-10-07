@@ -24,6 +24,7 @@
     background: rgb(4, 131, 124);
     width: 170px;
     height: 50px;;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .btn:hover {
     padding: 3px;

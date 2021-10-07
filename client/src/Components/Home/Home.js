@@ -15,13 +15,13 @@ function Home() {
       await dispatch(getGenres());
       }
       initial();
-  }, []);
+  }, [dispatch]);
 
     return (
       <div className={style.fondo}>
-        <h1 className={style.title}>Henry Videogames</h1>
+        <h1 className={style.title}>Videogames Library</h1>
         <Link to='/videogames'>
-            <button className={style.btn}>HOME</button>
+            <input type='submit' className={style.btn} value='HOME' />
         </Link>
       </div>
     )
