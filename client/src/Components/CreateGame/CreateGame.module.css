@@ -73,4 +73,5 @@
     border-color: rgb(73, 74, 75);
     -webkit-transform:scale(1.2);
     transform:scale(1.2);
+    cursor: pointer;
 }

@@ -19,13 +19,13 @@ export default function CreateGame() {
 
     const dispatch = useDispatch();
     const allGenres = useSelector(state => state.genresGames);
-    const allGamesProcess = useSelector(state => state.processGames);
+    //const allGamesProcess = useSelector(state => state.processGames);
     const allPlatforms = useSelector(state => state.platformsGames);
 
     useEffect(() => {
         dispatch(getGenres());
         dispatch(getPlatforms());
-    }, []);
+    }, [dispatch]);
 
     function handdleInputChange(e) {
         let name = e.target.name;
@@ -48,7 +48,7 @@ export default function CreateGame() {
         }
         else {
             setInput({...input, [e.target.name]: e.target.value});
-            console.log('INPUT CREAR GAME: ', input);
+            //console.log('INPUT CREAR GAME: ', input);
         }
     }
 
@@ -80,7 +80,7 @@ export default function CreateGame() {
                 genres: [],
                 image: imgDefault
             });
-            console.log('TODOS LOS GAMES DESPUÉS DE CREAR UNO: ', allGamesProcess);
+            //console.log('TODOS LOS GAMES DESPUÉS DE CREAR UNO: ', allGamesProcess);
         alert('New game created, Good Job!');
         e.target.reset();
         }
@@ -116,7 +116,7 @@ export default function CreateGame() {
                         ))}
             </select>
             <textarea   placeholder='Selected Genres' value={input.genres}
-                        className={style.select_text_tarea}> </textarea>
+                        className={style.select_text_tarea}> </textarea>   
         </div>
        
         <div className={style.divs}>
