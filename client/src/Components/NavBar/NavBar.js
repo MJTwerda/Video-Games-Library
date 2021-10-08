@@ -17,10 +17,10 @@ export default function NavBar() {
             <nav>
                 <div className={style.gral_list}>
                     <NavLink exact to="/videogames" className={style.link}>
-                        <h3 className={style.list}>Videogames</h3>
+                        <h2 className={style.list}>Videogames</h2>
                     </NavLink>
                     <NavLink to="/creategame" className={style.link}>
-                        <h3 className={style.list}>Create</h3>
+                        <h2 className={style.list}>Create</h2>
                     </NavLink>
                 </div>
             </nav>

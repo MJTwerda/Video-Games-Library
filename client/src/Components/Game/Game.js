@@ -12,7 +12,7 @@ export default function Game({games}) {
                 return (
                 <div key={game.id} className={style.indGame}>
 
-                        <h4 className={style.titleGame}>{game.name}</h4>
+                        <h3 className={style.titleGame}>{game.name}</h3>
 
                     <NavLink to={`/videogame/${game.id}`} className={style.cont_poster}>
                         <img src={game.image} className={style.poster} alt='Search'/>
@@ -20,7 +20,7 @@ export default function Game({games}) {
 
                     <ul className={style.ulGame}>
                         {game.Genres.map(genre => (
-                            <li key={genre.id}>{genre.name}</li> 
+                            <li key={genre.id} className={style.indGame}>{genre.name}</li> 
                         ))}
                     </ul>
                 </div>

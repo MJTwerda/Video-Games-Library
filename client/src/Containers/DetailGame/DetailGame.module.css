@@ -25,7 +25,8 @@
 
 .title {
     font-size: medium;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    font-family: 'Times New Roman', Times, serif;
     color: rgb(197, 194, 194);
     margin-top:0;
     padding: 15px;
@@ -37,11 +38,14 @@
 
 .item {
     margin:10px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    font-family: 'Times New Roman', Times, serif;
     color: rgb(197, 194, 194);
 }
 
 .description {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    font-family: 'Times New Roman', Times, serif;
     color: rgb(197, 194, 194);
+    font-size: medium;
 }
